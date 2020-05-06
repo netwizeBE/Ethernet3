@@ -1,15 +1,16 @@
-# add possibility to choose SPI port
-Set following defines
-
-    #define W5500_MOSI PB15   
-    #define W5500_MISO PB14
-    #define W5500_SCLK PB13
-	
 # Ethernet3 v1.5
 Ethernet library for Arduino and Ethernetshield2 / WIZ550io / WIZ850io / USR-ES1 with Wiznet W5500 chip
 based on the Ethernet2 library of arduino.org
 
 I added many new functionalities.
+
+## add possibility to choose SPI port
+Set following defines to use SPIx on the board
+
+    #define W5500_MOSI PB15   
+    #define W5500_MISO PB14
+    #define W5500_SCLK PB13
+	
 
 ## new in 1.5
 - custom hostname for DHCP
